@@ -128,7 +128,7 @@ router.post("/check-booking-availability", async (req, res) => {
 
 router.post("/book-appointment", async (req, res) => {
   try {
-    const { address, location, phone_number, full_name, date, time } = req.body;
+    const { address, location, phone_number, full_name,session_number, date, time } = req.body;
 
    
     const appointmentRef = await appointmentsCollection.add({
@@ -136,6 +136,7 @@ router.post("/book-appointment", async (req, res) => {
       phone_number,
       location,
       full_name,
+      session_number,
       date,
       time,
       isBook: true,

@@ -247,7 +247,7 @@ router.delete("/delete-doctor/:doctorId",authMiddleware, async (req, res) => {
 
 
 
-router.get("/get-all-appointments",authMiddleware, async (req, res) => {
+router.get("/get-all-appointments", authMiddleware,async (req, res) => {
   try {
     
     const snapshot = await appointmentsCollection.get();
