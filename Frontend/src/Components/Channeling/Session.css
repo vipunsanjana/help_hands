@@ -1,0 +1,112 @@
+/* Session.css */
+
+body {
+  margin: 0;
+}
+
+.session-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.day-selector {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+
+  padding: 10px 0;
+  z-index: 1;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(226, 104, 10);
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.selected {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.session-schedule {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.session-card {
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 45%; /* Adjust as needed */
+}
+
+.session-card:hover {
+  transform: scale(1.02);
+}
+
+.book-button {
+  background-color: #3ce7b1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #c0392b;
+}
+
+/* Add media queries for responsiveness */
+@media (min-width: 600px) {
+  .session-container {
+    padding: 30px;
+  }
+
+  .day-selector {
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .session-card {
+    width: 45%;
+  }
+
+  .book-button {
+    padding: 12px 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .session-schedule {
+    width: 80%;
+  }
+}
+
+/* Session.css */
+
+/* ... (existing styles) ... */
+
+.selected-day-heading {
+  margin: 20px 0;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+/* ... (existing styles) ... */

@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card-wrapper {
+    width: 90%;
+    height: 90%;
+    display: block;
+    position: relative;
+    margin: 90px auto 50px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  
+  .card-wrapper:hover {
+    box-shadow: 10px 10px 5px #888888;
+  }
+  
+  .card-wrapper .title {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    margin: 0 auto 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transition: 300ms;
+  }
+  
+  .card-wrapper .img-and-name {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 0;
+  }
+  
+  .card-wrapper .img-and-name .image-place {
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: top;
+    transition: 300ms;
+    border-radius: 50%;
+  }
+  
+  .card-wrapper .img-and-name .image-place img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    top: -150%;
+    bottom: -150%;
+    left: -150%;
+    right: -150%;
+    position: absolute;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: none;
+  }
+  
+  .card-wrapper .img-and-name .information {
+    width: calc(100% - 170px);
+    height: auto;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 14px;
+    vertical-align: top;
+    transition: 300ms;
+  }
+  
+  #postID {
+    margin-top: -5px;
+  }
+  
+  .card-wrapper .img-and-name .information .person-name,
+  .card-wrapper .img-and-name .information .job-description {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding: 5px 0;
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 1.4;
+    transition: 800ms;
+    margin-bottom: -10px;
+  }
+  
+  .card-wrapper .img-and-name .information .person-name {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0;
+  }
+  
+  .card-wrapper .img-and-name .information .job-description {
+    font-size: 12px;
+    padding-top: 0;
+  }
+  
+  .card-wrapper .img-and-name .information .job-description:after {
+    content: " ";
+    display: block;
+    position: relative;
+
+    padding: 20px 0 0;
+    margin: 0 -30px 10px;
+  }
+  
+  @media (max-width: 576px) {
+    .card-wrapper .title {
+      font-size: 25px;
+      text-align: center;
+      transition: 300ms;
+    }
+  
+    .card-wrapper .img-and-name {
+      text-align: center;
+      padding: 0;
+      transition: 300ms;
+    }
+  
+    .card-wrapper .img-and-name .image-place {
+      width: 170px;
+      height: 170px;
+      margin: 20px auto;
+      padding: 0;
+      transition: 300ms;
+    }
+  
+    .card-wrapper .img-and-name .information {
+      width: 100%;
+      height: auto;
+      display: inline-block;
+      position: relative;
+      margin: 0 auto;
+      padding: 0 10px;
+      transition: 300ms;
+    }
+  
+    .card-wrapper .img-and-name .information .person-name {
+      padding: 0 0 5px;
+    }
+  
+    .card-wrapper .img-and-name .information .person-name p {
+      font-size: 30px;
+      line-height: 1;
+      padding: 0;
+      margin: 0 auto;
+    }
+  
+    .card-wrapper .img-and-name .information .job-description:after {
+      padding: 20px 0 0;
+      margin: 0 -10px 10px;
+    }
+  }
+  

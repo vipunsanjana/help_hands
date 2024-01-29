@@ -1,0 +1,111 @@
+
+
+/* Footer styles */
+.footer {
+    background-color: #151515;
+    padding: 70px 0;
+    color: #FFF;
+    text-align: center;
+}
+
+.footer_container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-right: 20px; */
+}
+
+.footer-col {
+    /* width: 25%; */
+    padding: 0 15px;
+    margin-bottom: 30px;
+    text-align: left;
+    /* margin-right: 1px; */
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #DDD;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.footer-col ul li a i {
+    margin-right: 10px; /* Adjust this value for the desired space */
+}
+
+.footer-col ul li a:hover {
+    color: #FFF;
+    padding-left: 7px;
+}
+
+.social-links a {
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+}
+
+.social-links a:hover {
+    color: #151515;
+    background-color: #FFF;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* .copyright p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+} */
+  
+  @media (max-width: 768px) {
+    /* Responsive styles for smaller screens */
+    .copyright {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }

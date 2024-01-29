@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card-wrapper {
+    width: 90%;
+    height: 90%;
+    display: block;
+    position: relative;
+    margin: 30px auto 50px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  
+  .card-wrapper:hover {
+    box-shadow: 10px 10px 5px #888888;
+  }
+  
+ .Doc-image{
+
+ }
+ #postID{
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .doctor-image{
+    height: 100px;
+    width: 100px;
+ }
+  
+  @media (max-width: 576px) {
+    .card-wrapper .title {
+      font-size: 25px;
+      text-align: center;
+      transition: 300ms;
+    }
+  
+   
+  }
+  

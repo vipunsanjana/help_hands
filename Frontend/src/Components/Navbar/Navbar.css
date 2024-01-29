@@ -1,0 +1,122 @@
+.navbarClass{
+    padding-left: 10%;
+}
+
+.middleNavBar{
+    gap: 50px;
+}
+
+.navbar-toggler{
+    margin-right: 10%;
+}
+
+.navbar-collapse{
+    justify-content: center;
+    align-items: center;
+}
+
+.my-sm-0{
+   margin-right: 200px;
+}
+
+.Logo{
+    width: 100px;
+    height: 100px;
+}
+
+.contactUsBtn{
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.mkAppointment{
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .contactUsBtn{
+        background-color: black;
+        display: none;
+    }
+
+    .mkAppointment{
+        display: block;
+    }
+}
+
+/* Reset some default styles */
+/* body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} */
+
+/* Style the navbar container */
+/* .navbar { */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(49, 49, 83);
+    padding: 25px 20px; */
+    /* position: fixed; */
+/* } */
+
+/* Style the logo on the left */
+/* .navbar-logo a {
+    text-decoration: none;
+
+    color: #fff; /* Change the color as needed */
+
+/* } */
+
+/* Style the links in the middle */
+/* .navbar-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} */
+
+/* .navbar-links li {
+    margin-right: 20px;
+} */
+
+/* .navbar-links a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+.navbar-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-button a {
+    text-decoration: none;
+    color: #fff; 
+    background-color: #007bff; 
+    padding: 10px 20px;
+    border-radius: 5px;
+} */
+
+/* Add media queries for responsive design */
+/* @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        margin: 10px 0;
+    }
+
+    .navbar-button {
+        margin-top: 10px;
+    }
+} */

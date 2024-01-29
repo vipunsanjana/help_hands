@@ -1,0 +1,59 @@
+/* body{ */
+    /* background-image: url('../../../Assets/loginbg.png'); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+/* .container {
+    display: grid;
+    place-items: center; 
+    height: 100vh; 
+}
+
+.row {
+    border-radius: 20px;
+    background: rgba(78, 155, 132, 0.50);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 500px;
+    height: 480px;
+}
+
+.col-sm h3{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#login-form {
+    text-align: center;
+    justify-content: center;
+}
+
+#email, #password{
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    padding: 5px 5px 5px 25px;
+}
+
+.SignBtn button {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid rgba(9, 50, 59, 0.72);;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    background-color: rgba(9, 50, 59, 0.72);;
+    color: white;
+    cursor: pointer;
+} */
